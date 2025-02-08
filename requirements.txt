@@ -1,3 +1,6 @@
-"fastapi[standard]"
+fastapi[standard]
 langchain
 openai
+pydotenv
+langchain_community
+langchain_groq

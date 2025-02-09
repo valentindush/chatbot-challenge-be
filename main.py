@@ -3,7 +3,7 @@ from fastapi.responses import StreamingResponse
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 from typing import AsyncIterable
-from langchain_groq import ChatGroq
+from langchain_groq import ChatGroq # we can easily replaced this with langchain openai (but i've utilized all my free tokens... so i used free model)
 from langchain.schema import AIMessage, HumanMessage
 import os
 from dotenv import load_dotenv

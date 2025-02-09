@@ -41,7 +41,7 @@ You can get your own key from [console.groq.com/keys](https://console.groq.com/k
 ### 5. Run the Application
 #### Using FastAPI directly:
 ```sh
-fastapi dev main.py
+fastapi dev app/main.py
 ```
 
 #### Using Docker Compose:

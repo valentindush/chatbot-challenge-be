@@ -4,5 +4,7 @@ services:
       context: .
       dockerfile: Dockerfile
     image: chabot-be
+    env_file:
+      - .env
     ports:
       - "80:80"

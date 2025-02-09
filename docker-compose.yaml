@@ -1,0 +1,8 @@
+services:
+  chatbot-be:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: chabot-be
+    ports:
+      - "80:80"
